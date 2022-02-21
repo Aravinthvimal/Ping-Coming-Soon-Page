@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/favicon.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;400;500;600;700;800;900&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            Blue: 'hsl(223, 87%, 63%)',
+            PaleBlue: 'hsl(223, 100%, 88%)',
+            LightRed: 'hsl(354, 100%, 66%)',
+            Gray: 'hsl(0, 0%, 59%)',
+            LightGray: 'hsl(0, 0%, 80%)',
+            VeryDarkBlue: 'hsl(209, 33%, 12%)',
+          }
+        }
+      }
+    }
+  </script>
+  <title> Ping Coming Soon Page </title>
+</head>
+<body>
+  <main style="font-family: 'Libre Franklin', sans-serif;" class="overflow-x-hidden">
+    <div class="flex flex-col justify-center items-center text-center gap-2 lg:gap-4 my-20">
+      <img src="./images/logo.svg" alt="logo" class="w-16 lg:w-24" >
+      <h3 class="mt-6 lg:mt-4 text-2xl lg:text-5xl text-Gray"> We are launching <p class="inline text-VeryDarkBlue font-bold"> soon! </p> </h3>
+      <p class="text-sm lg:text-xl lg:mt-2 text-VeryDarkBlue"> Subscribe and get notified </p>
+      <form class="flex flex-col lg:flex-row items-center gap-3 lg:gap-6 mt-6 lg:ml-20 lg:w-6/12 w-10/12">
+        <input id="emailAddr" type="email" placeholder="Your email address..." class="w-full lg:w-7/12 placeholder:text-sm lg:placeholder:text-base placeholder:text-Gray placeholder:opacity-50 border 
+          border focus:outline-none focus:border-Gray focus:ring-0.5 focus:ring-Gray py-2 lg:py-4 px-6 rounded-full ">
+        <button type="submit" onclick="validate_email()" class="w-full lg:w-1/4 bg-Blue rounded-full py-2 lg:py-4 text-sm lg:text-base text-white font-semibold shadow-xl"> Notify Me </button>
+      </form>
+      <div class="relative w-full lg:w-1/2 left-1/4 lg:left-16 lg:-top-2">
+        <p id="message" class="hidden transition duration-300 ease-out text-LightRed text-xs italic absolute"> Please provide a valid email address </p>
+      </div>
+      <img src="./images/illustration-dashboard.png" alt="dashboard-svg" class=" w-10/12 lg:w-1/2 mt-12 lg:mt-20" >
+      <div class="flex items-center gap-5 text-Blue text-sm lg:text-lg mt-20">
+        <a href="#" class="fa fa-facebook transition duration-300 ease-out hover:ease-in-out hover:text-white hover:bg-Blue p-2 lg:p-3 px-3 lg:px-4 border-2 rounded-full"></a>
+        <a href="#" class="fa fa-twitter transition duration-300 ease-out hover:ease-in-out hover:text-white hover:bg-Blue p-2 lg:p-3 border-2 rounded-full"></a>
+        <a href="#" class="fa fa-instagram transition duration-300 ease-out hover:ease-in-out hover:text-white hover:bg-Blue p-2 lg:p-3 border-2 rounded-full"></a>
+      </div>
+      <p class="text-xs text-Gray"> &copy; Copyright Ping. &ensp; All rights reserved. </p>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
