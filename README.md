@@ -4,7 +4,7 @@
 
 This is my **Day 12** of the [Frontend Mentor](https://www.frontendmentor.io/home) Challenge endurance.
 
-Thanks for checking out this front-end coding challenge. This is the Live preview solution of the [Base Apparel Coming Soon Page](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da) challenge by [Frontend Mentor](https://www.frontendmentor.io/home). 
+Thanks for checking out this front-end coding challenge. This is the Live preview solution of the [Ping Coming Soon Page](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da) challenge by [Frontend Mentor](https://www.frontendmentor.io/home). 
 
 ## Focusig on 👀
 
@@ -17,7 +17,7 @@ Thanks for checking out this front-end coding challenge. This is the Live previe
 
 **Tip-off** you can surely ping me anytime [here](#find-me-elsewhere-%F0%9F%93%B1 "Goto Find me elsewhere 📱")
 
-**Create a clone** feel free to [fork](https://github.com/Aravinthvimal/Base-Apparel-Coming-Soon-Page) into or click on the challenge link.
+**Create a clone** feel free to [fork](https://github.com/Aravinthvimal/Ping-Coming-Soon-Page) into or click on the challenge link.
 
 **Cherish** unfortunately you gotto go to the top again, and press the star button!
 
